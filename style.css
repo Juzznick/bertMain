@@ -1,0 +1,113 @@
+*,body{
+    background-color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h1{
+    font-size: 22rem;
+    margin: 0;
+}
+
+.navBar{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(189, 199, 253);
+}
+
+.navBar ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: transparent;
+}
+.navBar li{
+    text-decoration: none;
+    list-style-type: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 900;
+}
+.navBar a{
+    text-decoration: none;
+    color:black;
+    background-color: transparent;
+
+}
+
+
+
+
+.heroDiv{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+
+.heroMainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroMainDiv img{
+    height: 50rem;
+}
+
+
+
+
+.infoDiv{
+    display: block;
+}
+
+.infoDiv h5{
+    font-size: 1rem;
+    background-color: transparent;
+}
+.infoDiv p{
+    background-color: transparent;
+}
+
+.infoSubDiv{
+    background-color: rgb(215, 215, 255);
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 1rem;
+}
+
+
+.feedbackDiv h2{
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 2rem 0;
+}
+.feedbackDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.feedbackSubDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+}
+.feedbackDiv input,textarea{
+    padding: .5rem 1rem .5rem 1rem;
+}
+.feedbackDiv textarea{
+    height: 10rem;
+}
+.feedbackDiv button{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(224, 191, 255);
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 2rem;
+}
